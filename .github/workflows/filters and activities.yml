@@ -19,5 +19,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: Show Event Type
-          run: |
-            echo "workflow executed for event - ${{github.event_name}}"
+          run: echo "workflow executed for event - ${{github.event_name}}"
+            
